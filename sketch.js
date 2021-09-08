@@ -49,7 +49,7 @@ function draw() {
   }
    
   //criando inimigos continuamente
-  var selectBaloon = Math.round(random(1,4));
+  var selectBalloon = Math.round(random(1,4));
   
   if (World.frameCount % 100 == 0) {
     if (selectBalloon == 1) {
